@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mapas | Forazon Wiki</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'media',
+    }
+  </script>
+</head>
+<body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-100 min-h-screen flex flex-col transition-all">
+
+  <header class="bg-gray-100 dark:bg-gray-800 shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-cyan-600 dark:text-cyan-400">Forazon 17 Wiki</h1>
+      <nav>
+        <ul class="flex space-x-6 text-lg">
+          <li><a href="index.html" class="hover:text-cyan-600 dark:hover:text-cyan-300">Início</a></li>
+          <li><a href="mapas.html" class="text-cyan-700 dark:text-cyan-300 font-semibold">Mapas</a></li>
+          <li><a href="armas.html" class="hover:text-cyan-600 dark:hover:text-cyan-300">Armas</a></li>
+          <li><a href="mecanicas.html" class="hover:text-cyan-600 dark:hover:text-cyan-300">Mecânicas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-grow max-w-6xl mx-auto px-4 py-10 flex gap-6">
+    
+    <!-- Sidebar -->
+    <aside class="w-1/4 hidden md:block">
+      <nav class="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 shadow">
+        <h3 class="text-lg font-semibold text-cyan-700 dark:text-cyan-300 mb-3">Tipos de Mapas</h3>
+        <ul class="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
+          <li><a href="#urbanos" class="hover:text-cyan-500">🏙️ Urbanos</a></li>
+          <li><a href="#florestais" class="hover:text-cyan-500">🌲 Florestais</a></li>
+          <li><a href="#articos" class="hover:text-cyan-500">❄️ Árticos</a></li>
+          <li><a href="#arena" class="hover:text-cyan-500">🧱 Arena</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Conteúdo -->
+    <section class="flex-1">
+      <h2 class="text-2xl md:text-3xl font-semibold text-cyan-700 dark:text-cyan-300 mb-6">Mapas do Jogo</h2>
+
+      <!-- Urbanos -->
+      <div id="urbanos" class="mb-10">
+        <h3 class="text-xl font-bold mb-3 text-cyan-600 dark:text-cyan-300">🏙️ Mapas Urbanos</h3>
+        <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 shadow">
+          <h4 class="font-semibold">Zona Alfa</h4>
+          <p class="text-sm text-gray-600 dark:text-gray-300">Ambiente urbano denso com prédios, cobertura tática e emboscadas em ruas estreitas.</p>
+        </div>
+      </div>
+
+      <!-- Florestais -->
+      <div id="florestais" class="mb-10">
+        <h3 class="text-xl font-bold mb-3 text-cyan-600 dark:text-cyan-300">🌲 Mapas Florestais</h3>
+        <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 shadow">
+          <h4 class="font-semibold">Selva Nebulosa</h4>
+          <p class="text-sm text-gray-600 dark:text-gray-300">Vegetação densa e baixa visibilidade. Ideal para combate furtivo.</p>
+        </div>
+      </div>
+
+      <!-- Árticos -->
+      <div id="articos" class="mb-10">
+        <h3 class="text-xl font-bold mb-3 text-cyan-600 dark:text-cyan-300">❄️ Mapas Árticos</h3>
+        <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 shadow">
+          <h4 class="font-semibold">Porto Congelado</h4>
+          <p class="text-sm text-gray-600 dark:text-gray-300">Áreas abertas com gelo escorregadio e nevasca constante.</p>
+        </div>
+      </div>
+
+      <!-- Arena -->
+      <div id="arena" class="mb-10">
+        <h3 class="text-xl font-bold mb-3 text-cyan-600 dark:text-cyan-300">🧱 Arenas</h3>
+        <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 shadow">
+          <h4 class="font-semibold">Fábrica Abandonada</h4>
+          <p class="text-sm text-gray-600 dark:text-gray-300">Ambiente fechado e simétrico para combates 1v1 ou times pequenos.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-100 dark:bg-gray-800 text-center text-sm text-gray-600 dark:text-gray-400 py-4">
+    &copy; 2025 Forazon 17. Por BugSlayer.
+  </footer>
+</body>
+</html>

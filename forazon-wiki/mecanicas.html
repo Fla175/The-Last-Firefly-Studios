@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mecânicas | Forazon Wiki</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'media',
+    }
+  </script>
+</head>
+<body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-100 min-h-screen flex flex-col transition-all">
+
+  <header class="bg-gray-100 dark:bg-gray-800 shadow-md">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
+      <h1 class="text-3xl font-bold text-cyan-600 dark:text-cyan-400">Forazon 17 Wiki</h1>
+      <nav>
+        <ul class="flex space-x-6 text-lg">
+          <li><a href="index.html" class="hover:text-cyan-600 dark:hover:text-cyan-300">Início</a></li>
+          <li><a href="mapas.html" class="hover:text-cyan-600 dark:hover:text-cyan-300">Mapas</a></li>
+          <li><a href="armas.html" class="hover:text-cyan-600 dark:hover:text-cyan-300">Armas</a></li>
+          <li><a href="mecanicas.html" class="text-cyan-700 dark:text-cyan-300 font-semibold">Mecânicas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="flex-grow max-w-6xl mx-auto px-4 py-10 flex gap-6">
+    
+    <!-- Sidebar -->
+    <aside class="w-1/4 hidden md:block">
+      <nav class="bg-gray-100 dark:bg-gray-800 rounded-lg p-4 shadow">
+        <h3 class="text-lg font-semibold text-cyan-700 dark:text-cyan-300 mb-3">Categorias</h3>
+        <ul class="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
+          <li><a href="#movimento" class="hover:text-cyan-500">🕹️ Movimento</a></li>
+          <li><a href="#combate" class="hover:text-cyan-500">⚔️ Combate</a></li>
+          <li><a href="#interacao" class="hover:text-cyan-500">🎯 Interação</a></li>
+          <li><a href="#estrategia" class="hover:text-cyan-500">🧠 Estratégia</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Conteúdo -->
+    <section class="flex-1">
+      <h2 class="text-2xl md:text-3xl font-semibold text-cyan-700 dark:text-cyan-300 mb-6">Mecânicas do Jogo</h2>
+
+      <!-- Movimento -->
+      <div id="movimento" class="mb-10">
+        <h3 class="text-xl font-bold mb-3 text-cyan-600 dark:text-cyan-300">🕹️ Movimento</h3>
+        <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 shadow">
+          <h4 class="font-semibold">Parkour</h4>
+          <p class="text-sm text-gray-600 dark:text-gray-300">Permite correr pelas paredes e escalar obstáculos baixos.</p>
+        </div>
+      </div>
+
+      <!-- Combate -->
+      <div id="combate" class="mb-10">
+        <h3 class="text-xl font-bold mb-3 text-cyan-600 dark:text-cyan-300">⚔️ Combate</h3>
+        <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 shadow">
+          <h4 class="font-semibold">Cobertura Ativa</h4>
+          <p class="text-sm text-gray-600 dark:text-gray-300">Sistema de cobertura que permite mirar por cima e pelos lados.</p>
+        </div>
+      </div>
+
+      <!-- Interação -->
+      <div id="interacao" class="mb-10">
+        <h3 class="text-xl font-bold mb-3 text-cyan-600 dark:text-cyan-300">🎯 Interação</h3>
+        <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 shadow">
+          <h4 class="font-semibold">Hack de Portas</h4>
+          <p class="text-sm text-gray-600 dark:text-gray-300">Minigame rápido para abrir portas bloqueadas por sistemas.</p>
+        </div>
+      </div>
+
+      <!-- Estratégia -->
+      <div id="estrategia" class="mb-10">
+        <h3 class="text-xl font-bold mb-3 text-cyan-600 dark:text-cyan-300">🧠 Estratégia</h3>
+        <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-4 shadow">
+          <h4 class="font-semibold">Sistema de Pings</h4>
+          <p class="text-sm text-gray-600 dark:text-gray-300">Permite marcar inimigos, recursos e estratégias para aliados.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-100 dark:bg-gray-800 text-center text-sm text-gray-600 dark:text-gray-400 py-4">
+    &copy; 2025 Forazon 17. Por BugSlayer.
+  </footer>
+</body>
+</html>
