@@ -4,12 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Forazon Wiki</title>
-  <script src="https://cdn.tailwindcss.com"></script>
   <script>
-    tailwind.config = {
-      darkMode: 'media', // Modo escuro se adapta ao tema do sistema
+  tailwind = {
+    config: {
+      darkMode: 'media',
     }
+  }
   </script>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-100 min-h-screen flex flex-col transition-all">
 
@@ -19,10 +21,7 @@
       <h1 class="text-3xl font-bold text-cyan-600 dark:text-cyan-400">Forazon 17 Wiki</h1>
       <nav>
         <ul class="flex space-x-6 text-lg">
-          <li><a href="index.html" class="text-cyan-700 hover:text-cyan-600 dark:hover:text-cyan-300">Início</a></li>
-          <li><a href="mapas.html" class="hover:text-cyan-600 dark:hover:text-cyan-300">Mapas</a></li>
-          <li><a href="armas.html" class="hover:text-cyan-600 dark:hover:text-cyan-300">Armas</a></li>
-          <li><a href="mecanicas.html" class="hover:text-cyan-600 dark:hover:text-cyan-300">Mecânicas</a></li>
+          
         </ul>
       </nav>
     </div>
@@ -40,7 +39,7 @@
     <div class="bg-gray-100 dark:bg-gray-800 rounded-xl p-6 shadow-lg transition-all">
       <h3 class="text-xl font-bold mb-2 text-cyan-700 dark:text-cyan-300">🆕 Últimas Atualizações</h3>
       <ul class="list-disc list-inside text-gray-800 dark:text-gray-200 space-y-1">
-        <li>Novo mapa "Zona Alfa" foi adicionado</li>
+        <li>Novo mapa "Fábrica Abandonada" foi adicionado</li>
         <li>Balanceamento de armas na atualização 1.5</li>
         <li>Nova mecânica de cobertura introduzida</li>
       </ul>
@@ -50,7 +49,6 @@
   <!-- Rodapé -->
   <footer class="bg-gray-100 dark:bg-gray-800 text-center text-sm text-gray-600 dark:text-gray-400 py-4">
     &copy; 2025 Forazon 17. Por BugSlayer.
-  </footer>
-
+  </footer>  
 </body>
 </html>
