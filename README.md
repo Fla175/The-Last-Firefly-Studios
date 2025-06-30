@@ -17,11 +17,11 @@ Este projeto foi desenvolvido utilizando **HTML**, **Tailwind CSS via CDN** e um
 
 ## 📂 Estrutura de Arquivos
 
-📁 Forazon-wiki/
-├── index.html # Página principal da wiki
-├── mapas.html # Página com os mapas do jogo
-├── armas.html # Página com as armas disponíveis
-├── mecanicas.html # Página explicando as mecânicas
+📁 Forazon-wiki/ <br>
+├── index.html # Página principal da wiki <br>
+├── mapas.html # Página com os mapas do jogo <br>
+├── armas.html # Página com as armas disponíveis <br>
+├── mecanicas.html # Página explicando as mecânicas <br>
 └── README.md # Este arquivo
 
 ---
