@@ -1,58 +1,86 @@
-# 🌐 Forazon 17 Wiki
+# [Nome Provisório do Estúdio] - Página Oficial
 
-Bem-vindo à wiki oficial de **Forazon 17**, um site informativo feito para documentar tudo sobre o universo do jogo: mapas, armas, mecânicas e estratégias!
-
-Este projeto foi desenvolvido utilizando **HTML**, **Tailwind CSS via CDN** e uma pitada de **JavaScript**. É ideal para ser executado localmente com a extensão **Live Server** no VS Code.
+Bem-vindo ao repositório da página oficial do [Nome Provisório do Estúdio]! Aqui você pode explorar o código-fonte que dá vida à nossa presença digital, onde apresentamos nossos jogos, nossa visão e a paixão que nos move.
 
 ---
 
-## 🔧 Tecnologias Utilizadas
+## 🚀 Sobre Nós
 
-- **HTML5** — Estrutura principal da wiki
-- **Tailwind CSS (via CDN)** — Estilização moderna e responsiva
-- **JavaScript** — Para pequenas interações e configuração do Tailwind
-- **Live Server (Extensão VS Code)** — Para testar localmente com recarregamento automático
+Somos um estúdio de desenvolvimento de jogos independente, movido pela crença de que os jogos são mais do que entretenimento; são formas de arte, narrativas interativas e plataformas para novas experiências. Com uma abordagem **vibrante e artística**, dedicamo-nos a criar mundos inovadores e histórias cativantes que ressoam com jogadores de todos os tipos.
 
----
+### Nossa Filosofia
 
-## 📂 Estrutura de Arquivos
-
-📁 Forazon-wiki/ <br>
-├── index.html # Página principal da wiki <br>
-├── mapas.html # Página com os mapas do jogo <br>
-├── armas.html # Página com as armas disponíveis <br>
-├── mecanicas.html # Página explicando as mecânicas <br>
-└── README.md # Este arquivo
+> Em nosso estúdio, acreditamos que a verdadeira maestria surge não da ausência de falhas, mas da **coragem de enfrentar os desafios e da sabedoria para aprender com cada obstáculo**. A criação de mundos imersivos e experiências inesquecíveis é uma jornada repleta de descobertas e, por vezes, de reveses. É no processo de **reflexão e aprimoramento contínuo** que elevamos nossa arte, transformando o "quase" em "extraordinário". Somos movidos pela paixão de inovar e pelo compromisso de entregar jogos que ressoem, toquem e inspirem, superando sempre os limites da imaginação.
 
 ---
 
-## 🚀 Como Executar Localmente
+## ✨ Funcionalidades Atuais
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/Forazon-17.git
+Esta página foi concebida como uma vitrine dinâmica para o nosso trabalho e identidade. Atualmente, ela oferece:
 
-2. Abra a pasta no VS Code.
+* **Seção Hero Impactante:** Uma primeira impressão marcante que convida os visitantes a mergulhar em nosso universo.
+* **"Sobre Nós" Detalhado:** Conheça nossa equipe, nossa missão e os valores que impulsionam cada pixel e linha de código.
+* **Portfólio de Projetos/Jogos:** Uma galeria visualmente rica dos nossos jogos, com descrições e links para plataformas (futuramente, incluindo a Steam!).
+* **Design Responsivo:** Uma experiência de navegação fluida em qualquer dispositivo (desktop, tablet, mobile).
 
-3. Instale e ative a extensão Live Server.
+---
 
-4. Clique com o botão direito no index.html e selecione "Open with Live Server".
+## 🛠️ Tecnologias Utilizadas
 
-## 🌙 Modo Escuro Automático
-O site utiliza o modo escuro responsivo com base no tema do seu sistema operacional. Se o seu dispositivo estiver configurado com tema escuro, a wiki se adaptará automaticamente!
+Este projeto foi construído com as seguintes tecnologias de ponta, garantindo performance, escalabilidade e facilidade de manutenção:
 
-## 🆕 Últimas Atualizações
-✅ Novo mapa “Zona Alfa” foi adicionado
+* **[Next.js](https://nextjs.org/):** Um framework React para produção que oferece renderização híbrida, otimização de imagens e roteamento robusto.
+* **[TypeScript (TSX)](https://www.typescriptlang.org/):** Um superset tipado de JavaScript que melhora a segurança e a manutenibilidade do código.
+* **[Tailwind CSS](https://tailwindcss.com/):** Um framework CSS *utility-first* que permite construir designs personalizados rapidamente e sem sair do seu HTML (ou TSX, neste caso).
 
-✅ Balanceamento de armas na atualização 1.5
+---
 
-✅ Nova mecânica de cobertura introduzida
+## 🚀 Como Executar o Projeto Localmente
 
-## 👤 Autor
-Desenvolvido por BugSlayer e AriDev
-📅 © 2025 - Todos os direitos reservados.
+Siga estes passos para configurar e rodar o projeto em sua máquina de desenvolvimento:
 
-## 📜 Licença
-Este projeto está sob uma licença de uso pessoal/educacional. Sinta-se livre para estudar, modificar e aprender com ele, mas não redistribua comercialmente sem permissão.
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/](https://github.com/)[seu-usuario]/[nome-do-repositorio].git
+    cd [nome-do-repositorio]
+    ```
+
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    # ou
+    yarn install
+    ```
+
+3.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    # ou
+    yarn dev
+    ```
+
+    O aplicativo estará disponível em `http://localhost:3000`.
+
+---
+
+## 📝 Contribuindo
+
+Atualmente, este projeto é mantido pela equipe principal do estúdio. No entanto, se você encontrar um bug ou tiver uma sugestão, sinta-se à vontade para abrir uma *issue* neste repositório.
+
+---
+
+## 📞 Contato
+
+Para consultas de negócios, imprensa ou oportunidades de parceria, entre em contato conosco através dos nossos canais oficiais (a serem adicionados em breve na página).
+
+* **Website:** [Link para a página do seu estúdio (quando em produção)]
+* **Twitter:** [@SeuStudioTwitter](https://twitter.com/SeuStudioTwitter) (Exemplo)
+* **Email:** contato@seuestudioindie.com (Exemplo)
+
+---
+
+## Licença
+
+Este projeto está sob a licença [MIT License](LICENSE).
 
 ---
