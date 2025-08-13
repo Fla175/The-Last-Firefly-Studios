@@ -1,6 +1,6 @@
-# [Nome Provisório do Estúdio] - Página Oficial
+# The Last Firefly Studios - Página Oficial
 
-Bem-vindo ao repositório da página oficial do [Nome Provisório do Estúdio]! Aqui você pode explorar o código-fonte que dá vida à nossa presença digital, onde apresentamos nossos jogos, nossa visão e a paixão que nos move.
+Bem-vindo ao repositório da página oficial do ˋThe Last Firefly Studiosˋ! Aqui você pode explorar o código-fonte que dá vida à nossa presença digital, onde apresentamos nossos jogos, nossa visão e a paixão que nos move.
 
 ---
 
