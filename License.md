@@ -1,6 +1,6 @@
 ## ⚖️ Licença e Propriedade Intelectual
 
-Este projeto de página web é de **propriedade exclusiva do [Nome Provisório do Estúdio]**. Todos os direitos sobre o código-fonte, design, estrutura e conteúdo (textos e elementos visuais da página) são **reservados**.
+Este projeto de página web é de **propriedade exclusiva do The Last Firefly Game Studios**. Todos os direitos sobre o código-fonte, design, estrutura e conteúdo (textos e elementos visuais da página) são **reservados**.
 
 O uso, cópia, modificação ou distribuição não autorizados deste código-fonte, ou de qualquer parte dele, são estritamente proibidos sem permissão expressa por escrito do estúdio.
 
